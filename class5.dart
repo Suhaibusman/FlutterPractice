@@ -5,8 +5,10 @@ var studentname =["suhaib", "usman","shakeeb"];
 List name =["sks",'ssd','ssdf','sfr'];
 name.insert(2,"check");
 print(name);
-
-
+studentname.removeWhere((element) => element=="suhaib"); // suhaib remove hogya he
+studentname.forEach((element) {
+  print(element);
+});
 Map nameofstu ={
 
   'id' : [122,123],
@@ -46,7 +48,7 @@ print(studentdata1);
 studentdata1.remove("marks"); //mtlb marks ki key or value dono remove hojaengi
 // print(studentdata1);  // ab marks show nhi honge
 
-// studentdata1.removeWhere((key, value) => false)  yeh check krna hee
+
 
 List dataa = [
 
@@ -68,4 +70,17 @@ List dataa = [
 print(dataa[1][1]["hehe"][0]["hehe"]["haha"]); //bye output ke lye
 // // print(data1[0]["name"]);
 // print(data1[1][9]);
+
+
+
+
+// cascade operator
+
+
+var fruit ={1: "apple",2:"banana"};
+
+var allfruits={};
+
+
+
 }
