@@ -25,4 +25,16 @@ var w= -1;
 var d =0;
 var result=w++ + --d;
 print(result);
+
+
+
+//loops
+for(int i=0;i<5;i++){
+// pehle check krenge kee i ki value zero hee phr ab condition check krenge ke 0<5 
+//condition true hogai simple  0 print hojaegaa phr uske bd next time ab post incremant hojae mtlb 0+1 print ke
+//bd hogaa ab next me i ki  value 1 hojaegi then
+  print(i); 
+}
+
+
 }
