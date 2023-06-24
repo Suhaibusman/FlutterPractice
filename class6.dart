@@ -34,7 +34,36 @@ for(int i=0;i<5;i++){
 //condition true hogai simple  0 print hojaegaa phr uske bd next time ab post incremant hojae mtlb 0+1 print ke
 //bd hogaa ab next me i ki  value 1 hojaegi then
   print(i); 
+
+
+
+};
+List name =["suhaib","shakeb"];
+//for in kisi cheez ke anderr chec krega mtlb i ke andar value aayegi or agr name print karae to usme aese he
+for (var i in name) {
+  print(i);
 }
 
 
+List num6 =[1,23,56,80,1,3,56,2];
+List evennumber =[];
+List oddnumber =[];
+var numberr =num6[0];
+for(int i=0;i<num6.length;i++){
+  if(number % 2 ==0){
+    evennumber.add(i);
+  }
 }
+
+// for (int a in num6) {
+//   if (number % 2 ==0 ) {
+//    evennumber.add(a); 
+
+//   }else{
+//     oddnumber.add(a);
+//   }
+//}
+print(evennumber);
+print(oddnumber);
+}
+
