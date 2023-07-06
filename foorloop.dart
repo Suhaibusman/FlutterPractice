@@ -1,5 +1,5 @@
 void main(){ 
-  List num6 =[1,23,56,80,1,3,56,2];
+  List num6 =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 List evennumber =[];
 List oddnumber =[];
 
