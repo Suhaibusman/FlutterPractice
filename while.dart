@@ -6,13 +6,13 @@ void main() {
   String username = "admin";
   String pass = "admin";
 
-  bool isLogin = false;
+
   print("enter username");
   var userinput = stdin.readLineSync();
 
   print("enter password");
   var passinput = stdin.readLineSync();
-
+  bool isLogin = false;
   while (isLogin == false) {
     if (userinput == username && passinput == pass) {
       print("password match");
@@ -26,9 +26,7 @@ void main() {
       if (againpass == "y") {
         print("enter username");
         userinput = stdin.readLineSync();
-
         print("enter password");
-
         passinput = stdin.readLineSync();
       } else {
         break;

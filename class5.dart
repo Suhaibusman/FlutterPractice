@@ -15,6 +15,7 @@ Map nameofstu ={
   'name' : ["suhaib","shakeeb"],
   "age" : [20,15]
 };
+print(nameofstu);
 // print(nameofstu.containsKey("id"));
 
 // print(nameofstu["name"][1]);

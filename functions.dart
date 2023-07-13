@@ -29,5 +29,14 @@ studdentmarksheet(String Name,int marks1,int marks2,int marks3,int marks4,int ma
   }else{
     print("$name is fail");
   }
-    
+
+//required with name
+    Studentdata(name: "Suhaib", id: "CSC-20F-122", Section: "6c");
   }
+//requiredand optional
+
+Studentdata({required String name ,required String id, required String Section}){
+  print("$name ki id: $id & class section : $Section ");
+
+
+}

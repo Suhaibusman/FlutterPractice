@@ -44,7 +44,7 @@ print(id);
 
 print(id[id.length-2]);
 
-var a=list1.addAll(list2);
+list1.addAll(list2);
 print(list1);
 
 list1.replaceRange(list1.length-1,list1.length,["uuuuuu",90,788]);
