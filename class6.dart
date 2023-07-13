@@ -54,7 +54,7 @@ for(int i=0;i<num6.length;i++){
     evennumber.add(i);
   }
 }
-
+print(numberr);
 // for (int a in num6) {
 //   if (number % 2 ==0 ) {
 //    evennumber.add(a); 

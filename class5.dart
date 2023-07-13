@@ -25,7 +25,7 @@ print(nameofstu);
 List data1 =[
 {"name" :"suhaib","rollno":122},
 {"name" :"shakeeb",9:123}];
-// print(data1[0]);
+print(data1[0]);
 
 Map <String, dynamic> studentdata1= {
   "name": "suhaib",
@@ -82,6 +82,6 @@ var fruit ={1: "apple",2:"banana"};
 
 var allfruits={};
 
-
-
+print(fruit);
+allfruits.addAll(fruit);
 }
