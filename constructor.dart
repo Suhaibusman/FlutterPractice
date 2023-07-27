@@ -1,0 +1,1 @@
+//jab hum class call krte he to usme koi parameter pass krenge to constructor kehlaegaa

@@ -1,4 +1,4 @@
-void main(){
+    void main(){
 
   var number =0;    
   number =number++; //
